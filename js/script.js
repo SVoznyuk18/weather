@@ -61,7 +61,6 @@ function addValueInInput(event){
 function getId (){
     let id = '';
     
-
     console.log(id);
     
 }
