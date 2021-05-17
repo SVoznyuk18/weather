@@ -1,0 +1,21 @@
+.wrapper-searc{
+    width: 400px;
+}
+
+
+.wrapper-result{
+    overflow: scroll;
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    background-color: aqua;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.item-result{
+    padding: 0 10px 0 10px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+
+}

@@ -1,0 +1,103 @@
+[
+    {
+        "id": 2966873,
+        "name": "Arvagh",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -7.58333,
+            "lat": 53.916672
+        }
+    },
+    {
+        "id": 2966883,
+        "name": "Arklow",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -6.14139,
+            "lat": 52.79306
+        }
+    },
+    {
+        "id": 2966889,
+        "name": "Ardsollus Bridge",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -8.88889,
+            "lat": 52.797501
+        }
+    },
+    {
+        "id": 2966899,
+        "name": "Ardrahan",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -8.80583,
+            "lat": 53.157501
+        }
+    },
+    {
+        "id": 2966900,
+        "name": "Ardpatrick",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -8.52667,
+            "lat": 52.34222
+        }
+    },
+    {
+        "id": 4059831,
+        "name": "East Brewton",
+        "state": "AL",
+        "country": "US",
+        "coord": {
+            "lon": -87.062752,
+            "lat": 31.093229
+        }
+    },
+    {
+        "id": 4059870,
+        "name": "East Florence",
+        "state": "AL",
+        "country": "US",
+        "coord": {
+            "lon": -87.649467,
+            "lat": 34.809528
+        }
+    },
+    {
+        "id": 4060038,
+        "name": "Eastwood",
+        "state": "AL",
+        "country": "US",
+        "coord": {
+            "lon": -87.753052,
+            "lat": 30.890739
+        }
+    },
+    {
+        "id": 4060176,
+        "name": "Eclectic",
+        "state": "AL",
+        "country": "US",
+        "coord": {
+            "lon": -86.034409,
+            "lat": 32.63541
+        }
+    },
+    {
+        "id": 4060381,
+        "name": "Elberta",
+        "state": "AL",
+        "country": "US",
+        "coord": {
+            "lon": -87.597763,
+            "lat": 30.41436
+        }
+    }
+
+]
