@@ -18,7 +18,7 @@ function renderSearchItem(arr){   //рендер результата поиск
     for(let i = 0; i < arr.length; i++){  
         let itemResult = document.createElement('div');
         itemResult.textContent =`${arr[i]["name"]}, ${arr[i]["country"]}`;
-        itemResult.id = arr[i]["id"];
+        itemResult.setAttribute('data-cityId', arr[i]["id"]);
         itemResult.classList.add('item-result');
         wrapperResult.append(itemResult);
         //console.log(arr[i]["name"]);
@@ -27,52 +27,58 @@ function renderSearchItem(arr){   //рендер результата поиск
 }
 
 document.querySelector('.searchCity').addEventListener('input', function(){
-get('js/db.json')
-.then((json) =>{
-    const data = json;
-    let res = [];
-    let inputValue = (this.value).toLowerCase();
+    get('js/db.json')
+        .then((json) =>{
+            const data = json;
+            let res = [];
+            let inputValue = (this.value).toLowerCase();
 
-    data.forEach(item =>{
-        if(((item.name).toLowerCase()).includes(inputValue)){
-            res.push(item);
-        }
-    })
+            data.forEach(item =>{
+                if(((item.name).toLowerCase()).includes(inputValue)){
+                    res.push(item);
+                }
+            })
 
-    //console.log(res);
-    renderSearchItem(res);
-})
-.catch(()=> console.log('Erooor'))
+            //console.log(res);
+            renderSearchItem(res);
+        })
+        .catch(()=> console.log('Erooor'))
 });
 
 
 
 
+
+ 
+function addValueInInput(event){                                    // in input add result search and city id
+    let targetElement = document.querySelector('.searchCity');              
+    let valueSearch = event.target.textContent;           
+    let cityId =  event.target.attributes[0].value;
+    
+    targetElement.value = valueSearch;
+    targetElement.setAttribute('data-cityId', cityId);
+    //console.log(cityId);
+}
+
 const wrapperSearc = document.querySelector('.wrapper-searc');
-
-function addValueInInput(event){
-    let valueSearch = event.target.textContent;
-    let id =  event.target.id;
-    document.querySelector('.searchCity').value = valueSearch;
-    console.log(id);
-    return id;
-}
-
-function getId (){
-    let id = '';
-    
-    console.log(id);
-    
-}
 
 wrapperSearc.addEventListener('click', (event) =>{
 
     if(event.target.classList.contains('item-result')){
         addValueInInput(event);
-       
     }
 }); 
 
+
+const btnGo = document.querySelector('.btn');
+btnGo.addEventListener('click', function (event) {
+    event.preventDefault();
+    let id = document.querySelector('.searchCity').getAttribute('data-cityId');
+    get(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=a696a0c8ecdc20d50ae0ceb393b2e9ac`)
+        .then((json) =>{
+            console.log(json);
+        })
+})
 
 
 

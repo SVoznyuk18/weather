@@ -98,6 +98,197 @@
             "lon": -87.597763,
             "lat": 30.41436
         }
+    },
+    {
+        "id": 8247406,
+        "name": "Lyeskawka",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 27.7108,
+            "lat": 54.002399
+        }
+    },
+    {
+        "id": 8247407,
+        "name": "Lyasny",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 27.696301,
+            "lat": 54.007198
+        }
+    },
+    {
+        "id": 8247409,
+        "name": "Bal’shavik",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 27.5669,
+            "lat": 54.003601
+        }
+    },
+    {
+        "id": 8256205,
+        "name": "Usiazh",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 28.006981,
+            "lat": 54.075981
+        }
+    },
+    {
+        "id": 8256270,
+        "name": "Октябрьский",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 28.19813,
+            "lat": 54.040588
+        }
+    },
+    {
+        "id": 8259949,
+        "name": "Vallenar",
+        "state": "",
+        "country": "CL",
+        "coord": {
+            "lon": -70.255508,
+            "lat": -28.51576
+        }
+    },
+    {
+        "id": 8260052,
+        "name": "Pontyclun",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -3.39145,
+            "lat": 51.521622
+        }
+    },
+    {
+        "id": 8260056,
+        "name": "Pentre",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -3.49133,
+            "lat": 51.654289
+        }
+    },
+    {
+        "id": 8260059,
+        "name": "Catterick Garrison",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -1.72232,
+            "lat": 54.37748
+        }
+    },
+    {
+        "id": 8260172,
+        "name": "West Greenwich",
+        "state": "RI",
+        "country": "US",
+        "coord": {
+            "lon": -71.660042,
+            "lat": 41.637001
+        }
+    },
+    {
+        "id": 8260265,
+        "name": "Buutuo",
+        "state": "",
+        "country": "LR",
+        "coord": {
+            "lon": -8.3428,
+            "lat": 6.8275
+        }
+    },
+    {
+        "id": 8260318,
+        "name": "Shanjeev Home",
+        "state": "",
+        "country": "LK",
+        "coord": {
+            "lon": 81.84198,
+            "lat": 7.38216
+        }
+    },
+    {
+        "id": 8260661,
+        "name": "Emar",
+        "state": "",
+        "country": "RU",
+        "coord": {
+            "lon": 132.156433,
+            "lat": 43.20417
+        }
+    },
+    {
+        "id": 8261129,
+        "name": "Antofagasta",
+        "state": "",
+        "country": "CL",
+        "coord": {
+            "lon": -69.409691,
+            "lat": -24.27389
+        }
+    },
+    {
+        "id": 8261417,
+        "name": "Recoleta",
+        "state": "",
+        "country": "CL",
+        "coord": {
+            "lon": -70.636383,
+            "lat": -33.40881
+        }
+    },
+    {
+        "id": 8277210,
+        "name": "Beldibi",
+        "state": "",
+        "country": "TR",
+        "coord": {
+            "lon": 30.707411,
+            "lat": 40.592731
+        }
+    },
+    {
+        "id": 10722858.0,
+        "name": "Forsytheganj",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 29.733333,
+            "lat": 52.633333
+        }
+    },
+    {
+        "id": 71296900.0,
+        "name": "Голубинка",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 33.92,
+            "lat": 44.59
+        }
+    },
+    {
+        "id": 102908597.0,
+        "name": "Gerton",
+        "state": "",
+        "country": "US",
+        "coord": {
+            "lon": -82.348056,
+            "lat": 35.479167
+        }
     }
+
 
 ]
