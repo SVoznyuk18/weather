@@ -7,7 +7,7 @@
     overflow: scroll;
     display: flex;
     width: 100%;
-    min-height: 50px;
+    max-height: 200px;
     background-color: aqua;
     border-radius: 5px;
     flex-direction: column;

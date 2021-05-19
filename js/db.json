@@ -1,5 +1,615 @@
 [
     {
+        "id": 1138958,
+        "name": "Kabul",
+        "state": "",
+        "country": "AF",
+        "coord": {
+            "lon": 69.172333,
+            "lat": 34.52813
+        }
+    },
+    {
+        "id": 3183875,
+        "name": "Tirana",
+        "state": "",
+        "country": "AL",
+        "coord": {
+            "lon": 19.81889,
+            "lat": 41.327499
+        }
+    },
+    {
+        "id": 2507480,
+        "name": "Algiers",
+        "state": "",
+        "country": "DZ",
+        "coord": {
+            "lon": 3.04197,
+            "lat": 36.752499
+        }
+    },
+    {
+        "id": 3041563,
+        "name": "Andorra la Vella",
+        "state": "",
+        "country": "AD",
+        "coord": {
+            "lon": 1.52109,
+            "lat": 42.50779
+        }
+    },
+    {
+        "id": 2240444,
+        "name": "Luanda Province",
+        "state": "",
+        "country": "AO",
+        "coord": {
+            "lon": 13.33924,
+            "lat": -8.91666
+        }
+    },
+    {
+        "id": 3435907,
+        "name": "Buenos Aires",
+        "state": "",
+        "country": "AR",
+        "coord": {
+            "lon": -60.0,
+            "lat": -36.0
+        }
+    },
+    {
+        "id": 616052,
+        "name": "Yerevan",
+        "state": "",
+        "country": "AM",
+        "coord": {
+            "lon": 44.513611,
+            "lat": 40.18111
+        }
+    },
+    {
+        "id": 2172517,
+        "name": "Canberra",
+        "state": "",
+        "country": "AU",
+        "coord": {
+            "lon": 149.128067,
+            "lat": -35.283459
+        }
+    },
+    {
+        "id": 2761369,
+        "name": "Vienna",
+        "state": "",
+        "country": "AT",
+        "coord": {
+            "lon": 16.37208,
+            "lat": 48.208488
+        }
+    },
+    {
+        "id": 587084,
+        "name": "Baku",
+        "state": "",
+        "country": "AZ",
+        "coord": {
+            "lon": 49.89201,
+            "lat": 40.37767
+        }
+    },
+    {
+        "id": 2867037,
+        "name": "Nassau",
+        "state": "",
+        "country": "DE",
+        "coord": {
+            "lon": 7.8,
+            "lat": 50.316669
+        }
+    },
+    {
+        "id": 290340,
+        "name": "Manama",
+        "state": "",
+        "country": "BH",
+        "coord": {
+            "lon": 50.583199,
+            "lat": 26.215361
+        }
+    },
+    {
+        "id": 1185241,
+        "name": "Dhaka",
+        "state": "",
+        "country": "BD",
+        "coord": {
+            "lon": 90.40744,
+            "lat": 23.7104
+        }
+    },
+    {
+        "id": 3374036,
+        "name": "Bridgetown",
+        "state": "",
+        "country": "BB",
+        "coord": {
+            "lon": -59.616669,
+            "lat": 13.1
+        }
+    },
+    {
+        "id": 625144,
+        "name": "Minsk",
+        "state": "",
+        "country": "BY",
+        "coord": {
+            "lon": 27.566668,
+            "lat": 53.900002
+        }
+    },
+    {
+        "id": 2800866,
+        "name": "Brussels",
+        "state": "",
+        "country": "BE",
+        "coord": {
+            "lon": 4.34878,
+            "lat": 50.850449
+        }
+    },
+    {
+        "id": 3582672,
+        "name": "Belmopan",
+        "state": "",
+        "country": "BZ",
+        "coord": {
+            "lon": -88.76667,
+            "lat": 17.25
+        }
+    },
+    {
+        "id": 2392087,
+        "name": "Porto-Novo",
+        "state": "",
+        "country": "BJ",
+        "coord": {
+            "lon": 2.60359,
+            "lat": 6.49646
+        }
+    },
+    {
+        "id": 3191281,
+        "name": "Sarajevo",
+        "state": "",
+        "country": "BA",
+        "coord": {
+            "lon": 18.35644,
+            "lat": 43.84864
+        }
+    },
+    {
+        "id": 933773,
+        "name": "Gaborone",
+        "state": "",
+        "country": "BW",
+        "coord": {
+            "lon": 25.90859,
+            "lat": -24.65451
+        }
+    },
+    {
+        "id": 727012,
+        "name": "Sofia",
+        "state": "",
+        "country": "BG",
+        "coord": {
+            "lon": 23.633329,
+            "lat": 42.650002
+        }
+    },
+    {
+        "id": 6094817,
+        "name": "Ottawa",
+        "state": "",
+        "country": "CA",
+        "coord": {
+            "lon": -75.69812,
+            "lat": 45.411171
+        }
+    },
+    {
+        "id": 1816670,
+        "name": "Beijing",
+        "state": "",
+        "country": "CN",
+        "coord": {
+            "lon": 116.397232,
+            "lat": 39.907501
+        }
+    },
+    {
+        "id": 2572183,
+        "name": "Commune de Brazzaville",
+        "state": "",
+        "country": "CG",
+        "coord": {
+            "lon": 15.28048,
+            "lat": -4.2657
+        }
+    },
+    {
+        "id": 3186886,
+        "name": "Zagreb",
+        "state": "",
+        "country": "HR",
+        "coord": {
+            "lon": 15.97798,
+            "lat": 45.814442
+        }
+    },
+    {
+        "id": 3553478,
+        "name": "Havana",
+        "state": "",
+        "country": "CU",
+        "coord": {
+            "lon": -82.383041,
+            "lat": 23.13302
+        }
+    },
+    {
+        "id": 146268,
+        "name": "Nicosia",
+        "state": "",
+        "country": "CY",
+        "coord": {
+            "lon": 33.366669,
+            "lat": 35.166672
+        }
+    },
+    {
+        "id": 3067696,
+        "name": "Prague",
+        "state": "",
+        "country": "CZ",
+        "coord": {
+            "lon": 14.42076,
+            "lat": 50.088039
+        }
+    },
+    {
+        "id": 2618425,
+        "name": "Copenhagen",
+        "state": "",
+        "country": "DK",
+        "coord": {
+            "lon": 12.56553,
+            "lat": 55.675941
+        }
+    },
+    {
+        "id": 3575635,
+        "name": "Roseau",
+        "state": "",
+        "country": "DM",
+        "coord": {
+            "lon": -61.388081,
+            "lat": 15.30174
+        }
+    },
+    {
+        "id": 3652462,
+        "name": "Quito",
+        "state": "",
+        "country": "EC",
+        "coord": {
+            "lon": -78.524948,
+            "lat": -0.22985
+        }
+    },
+    {
+        "id": 343300,
+        "name": "Asmara",
+        "state": "",
+        "country": "ER",
+        "coord": {
+            "lon": 38.933331,
+            "lat": 15.33333
+        }
+    },
+    {
+        "id": 588409,
+        "name": "Tallinn",
+        "state": "",
+        "country": "EE",
+        "coord": {
+            "lon": 24.753531,
+            "lat": 59.436958
+        }
+    },
+    {
+        "id": 2968815,
+        "name": "Paris",
+        "state": "",
+        "country": "FR",
+        "coord": {
+            "lon": 2.3486,
+            "lat": 48.853401
+        }
+    },
+    {
+        "id": 611717,
+        "name": "Tbilisi",
+        "state": "",
+        "country": "GE",
+        "coord": {
+            "lon": 44.833679,
+            "lat": 41.694111
+        }
+    },
+    {
+        "id": 2950158,
+        "name": "Berlin",
+        "state": "",
+        "country": "DE",
+        "coord": {
+            "lon": 10.45,
+            "lat": 54.033329
+        }
+    },
+    {
+        "id": 1261481,
+        "name": "New Delhi",
+        "state": "",
+        "country": "IN",
+        "coord": {
+            "lon": 77.23114,
+            "lat": 28.61282
+        }
+    },
+    {
+        "id": 1642911,
+        "name": "Jakarta",
+        "state": "",
+        "country": "ID",
+        "coord": {
+            "lon": 106.845131,
+            "lat": -6.21462
+        }
+    },
+    {
+        "id": 112931,
+        "name": "Tehran",
+        "state": "",
+        "country": "IR",
+        "coord": {
+            "lon": 51.421509,
+            "lat": 35.694389
+        }
+    },
+    {
+        "id": 98182,
+        "name": "Baghdad",
+        "state": "",
+        "country": "IQ",
+        "coord": {
+            "lon": 44.400879,
+            "lat": 33.34058
+        }
+    },
+    {
+        "id": 2964574,
+        "name": "Dublin",
+        "state": "",
+        "country": "IE",
+        "coord": {
+            "lon": -6.26719,
+            "lat": 53.34399
+        }
+    },
+    {
+        "id": 293198,
+        "name": "Jerusalem",
+        "state": "",
+        "country": "IL",
+        "coord": {
+            "lon": 35.0,
+            "lat": 31.75
+        }
+    },
+    {
+        "id": 3169070,
+        "name": "Rome",
+        "state": "",
+        "country": "IT",
+        "coord": {
+            "lon": 12.4839,
+            "lat": 41.894741
+        }
+    },
+    {
+        "id": 3489854,
+        "name": "Kingston",
+        "state": "",
+        "country": "JM",
+        "coord": {
+            "lon": -76.793579,
+            "lat": 17.997021
+        }
+    },
+    {
+        "id": 1850147,
+        "name": "Tokyo",
+        "state": "",
+        "country": "JP",
+        "coord": {
+            "lon": 139.691711,
+            "lat": 35.689499
+        }
+    },
+    {
+        "id": 1835848,
+        "name": "Seoul",
+        "state": "",
+        "country": "KR",
+        "coord": {
+            "lon": 126.977829,
+            "lat": 37.56826
+        }
+    },
+    {
+        "id": 593116,
+        "name": "Vilnius",
+        "state": "",
+        "country": "LT",
+        "coord": {
+            "lon": 25.2798,
+            "lat": 54.689159
+        }
+    },
+    {
+        "id": 2960315,
+        "name": "Luxembourg",
+        "state": "",
+        "country": "LU",
+        "coord": {
+            "lon": 6.13333,
+            "lat": 49.599998
+        }
+    },
+    {
+        "id": 785842,
+        "name": "Skopje",
+        "state": "",
+        "country": "MK",
+        "coord": {
+            "lon": 21.433331,
+            "lat": 42.0
+        }
+    },
+    {
+        "id": 2661552,
+        "name": "Bern",
+        "state": "",
+        "country": "CH",
+        "coord": {
+            "lon": 7.44744,
+            "lat": 46.94809
+        }
+    },
+    {
+        "id": 2464470,
+        "name": "Tunis",
+        "state": "",
+        "country": "TN",
+        "coord": {
+            "lon": 10.16579,
+            "lat": 36.81897
+        }
+    },
+    {
+        "id": 323786,
+        "name": "Ankara",
+        "state": "",
+        "country": "TR",
+        "coord": {
+            "lon": 32.854271,
+            "lat": 39.919868
+        }
+    },
+    {
+        "id": 703448,
+        "name": "Kyiv",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 30.516666,
+            "lat": 50.433334
+        }
+    },
+    {
+        "id": 2643743,
+        "name": "London",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -0.12574,
+            "lat": 51.50853
+        }
+    },
+    {
+        "id": 4140963,
+        "name": "Washington, D.C.",
+        "state": "DC",
+        "country": "US",
+        "coord": {
+            "lon": -77.036369,
+            "lat": 38.895111
+        }
+    },
+    {
+        "id": 5368361,
+        "name": "Los Angeles",
+        "state": "CA",
+        "country": "US",
+        "coord": {
+            "lon": -118.243683,
+            "lat": 34.052231
+        }
+    },
+    {
+        "id": 698740,
+        "name": "Odessa",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 30.732622,
+            "lat": 46.477474
+        }
+    },
+    {
+        "id": 702550,
+        "name": "Lviv",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 24.023239,
+            "lat": 49.838261
+        }
+    },
+    {
+        "id": 709930,
+        "name": "Dnipro",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 34.98333,
+            "lat": 48.450001
+        }
+    },
+    {
+        "id": 706483,
+        "name": "Kharkiv",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 36.25,
+            "lat": 50.0
+        }
+    },
+    {
+        "id": 691650,
+        "name": "Ternopil",
+        "state": "",
+        "country": "UA",
+        "coord": {
+            "lon": 25.60556,
+            "lat": 49.555889
+        }
+    },
+    {
         "id": 2966873,
         "name": "Arvagh",
         "state": "",
@@ -289,6 +899,4 @@
             "lat": 35.479167
         }
     }
-
-
 ]

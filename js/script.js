@@ -31,10 +31,10 @@ document.querySelector('.searchCity').addEventListener('input', function(){
         .then((json) =>{
             const data = json;
             let res = [];
-            let inputValue = (this.value).toLowerCase();
+            let inputValue = ((this.value).toLowerCase()).trim();
 
             data.forEach(item =>{
-                if(((item.name).toLowerCase()).includes(inputValue)){
+                if(compereValue(inputValue, ((item.name).toLowerCase())) == true){
                     res.push(item);
                 }
             })
@@ -46,7 +46,9 @@ document.querySelector('.searchCity').addEventListener('input', function(){
 });
 
 
-
+function compereValue(input, arrItem){    
+    if(input === arrItem.slice(0, input.length)) return true;
+}
 
 
  

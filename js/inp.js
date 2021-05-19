@@ -1,4 +1,4 @@
-
+/* 
 const wrapperSearc = document.querySelector('.wrapper-searc');
 
 function addValueInInput(event){
@@ -16,6 +16,16 @@ wrapperSearc.addEventListener('click', (event) =>{
     }
 }); 
 
+ */
 
 
 
+
+function compereValue(input, arrItem){
+    if(input === arrItem.slice(0, input.length)) return true;
+   
+    //console.log(input === arrItem.slice(0, input.length));
+
+}
+
+console.log(compereValue('A', 'Arklow'));
