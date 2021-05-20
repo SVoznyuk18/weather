@@ -26,7 +26,7 @@ function renderSearchItem(arr){   //рендер результата поиск
     wrapperSearc.append(wrapperResult);
 }
 
-document.querySelector('.searchCity').addEventListener('input', function(){
+document.querySelector('.searcg__inp').addEventListener('input', function(){
     get('js/db.json')
         .then((json) =>{
             const data = json;
@@ -41,6 +41,7 @@ document.querySelector('.searchCity').addEventListener('input', function(){
 
             //console.log(res);
             renderSearchItem(res);
+            showResult();
         })
         .catch(()=> console.log('Erooor'))
 });
@@ -53,7 +54,7 @@ function compereValue(input, arrItem){
 
  
 function addValueInInput(event){                                    // in input add result search and city id
-    let targetElement = document.querySelector('.searchCity');              
+    let targetElement = document.querySelector('.searcg__inp');              
     let valueSearch = event.target.textContent;           
     let cityId =  event.target.attributes[0].value;
     
@@ -68,19 +69,30 @@ wrapperSearc.addEventListener('click', (event) =>{
 
     if(event.target.classList.contains('item-result')){
         addValueInInput(event);
+        removeResults();
     }
 }); 
 
 
-const btnGo = document.querySelector('.btn');
+const btnGo = document.querySelector('.search__btn');
 btnGo.addEventListener('click', function (event) {
     event.preventDefault();
-    let id = document.querySelector('.searchCity').getAttribute('data-cityId');
+    let id = document.querySelector('.searcg__inp').getAttribute('data-cityId');
     get(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=a696a0c8ecdc20d50ae0ceb393b2e9ac`)
         .then((json) =>{
             console.log(json);
         })
 })
 
+
+
+function showResult(){
+    const wrapperSearc = document.querySelector('.wrapper-searc');
+    wrapperSearc.classList.add('wrapper-searc--active')
+}
+function removeResults(){
+    const wrapperSearc = document.querySelector('.wrapper-searc');
+    wrapperSearc.classList.remove('wrapper-searc--active')
+}
 
 
