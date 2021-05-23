@@ -78,13 +78,19 @@ const btnGo = document.querySelector('.search__btn');
 btnGo.addEventListener('click', function (event) {
     event.preventDefault();
     let id = document.querySelector('.searcg__inp').getAttribute('data-cityId');
-    get(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=a696a0c8ecdc20d50ae0ceb393b2e9ac`)
+    /* get(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=a696a0c8ecdc20d50ae0ceb393b2e9ac`)
         .then((json) =>{
             console.log(json);
-        })
+        }) */
+    get(`https://api.openweathermap.org/data/2.5/onecall?lat=34.52813&lon=69.172333&exclude=minutely,hourly,alerts&appid=a696a0c8ecdc20d50ae0ceb393b2e9ac`)
+    .then((json) =>{
+        console.log(json);
+    })
 })
 
 
+
+ //
 
 function showResult(){
     const wrapperSearc = document.querySelector('.wrapper-searc');
@@ -95,4 +101,32 @@ function removeResults(){
     wrapperSearc.classList.remove('wrapper-searc--active')
 }
 
+
+////////////////////////////////////////////////////
+//tabs
+
+document.querySelector('.tabs__header').addEventListener('click', showTabs);
+
+function showTabs(e){
+    e.preventDefault();
+   
+    if(e.target.classList.contains('tabs__header__trigger')){
+     
+        let tabAtribut = e.target.parentElement.getAttribute('data-tab');
+        let tabContent = document.querySelectorAll('.tabs__body__content');
+        let tabHeader = document.querySelectorAll('.tabs__header__item');
+
+        tabHeader.forEach(item => item.classList.remove('tabs__header__item--active'));
+        e.target.parentElement.classList.add('tabs__header__item--active');
+
+
+        tabContent.forEach((item, index) =>{
+            if(tabAtribut == index) tabContent[index].classList.add('tabs__body__content--active');
+            else tabContent[index].classList.remove('tabs__body__content--active');
+        })
+ 
+    }
+    
+}
+////////////////////////////////////
 
