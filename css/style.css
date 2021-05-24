@@ -149,6 +149,13 @@ header {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.tabs__header__item__img {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
 .tabs__header__item__temp {
   display: -webkit-box;
   display: -ms-flexbox;
