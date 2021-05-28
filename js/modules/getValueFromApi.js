@@ -1,6 +1,6 @@
 import get from './get.js'
 import renderWeather from './renderWeather.js'
-
+import setCityName from './cityName.js'
 function getValueFromApi(event, pathDB){
     event.preventDefault();
     let id = +document.querySelector('.searcg__inp').getAttribute('data-cityId');
@@ -18,6 +18,7 @@ function getValueFromApi(event, pathDB){
             .then((json) =>{
                 //console.log(json);
                 renderWeather(json);
+                setCityName(json)
             })
         })
 }
