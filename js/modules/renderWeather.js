@@ -64,18 +64,18 @@ function setMonth(unix){       //получаем месяц
     let month = new Date(unix * 1000);  // переводит с unix в мс.
     let res = '';   
     switch(month.getMonth()) {                      
-        case 0: res = 'Январь'; break;
-        case 1: res = 'Февраль'; break;
-        case 2: res = 'Март'; break;
-        case 3: res = 'Апрель'; break;
-        case 4: res = 'Май'; break;
-        case 5: res = 'Июнь'; break;
-        case 6: res = 'Июль'; break;
-        case 7: res = 'Август'; break;
-        case 8: res = 'Сентябрь'; break;
-        case 9: res = 'Октябрь'; break;
-        case 10: res = 'Ноябрь'; break;
-        case 11: res = 'Декабрь'; break;
+        case 0: res = 'January'; break;
+        case 1: res = 'February'; break;
+        case 2: res = 'March'; break;
+        case 3: res = 'April'; break;
+        case 4: res = 'May'; break;
+        case 5: res = 'June'; break;
+        case 6: res = 'July'; break;
+        case 7: res = 'August'; break;
+        case 8: res = 'September'; break;
+        case 9: res = 'October'; break;
+        case 10: res = 'November'; break;
+        case 11: res = 'December'; break;
     }
     return res;
 }

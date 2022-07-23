@@ -1,4 +1,3 @@
-
 import renderResult from './modules/renderResultSearch.js'
 import addValueInInput from './modules/addValueInput.js'
 import getValueFromApi from './modules/getValueFromApi.js'

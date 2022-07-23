@@ -11,14 +11,14 @@
 }
 
 header {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  height: 100vh;
   background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
 }
 
 .wrapper {
-  padding-bottom: 250px;
+  padding-bottom: 220px;
 }
 
 .search__box {
